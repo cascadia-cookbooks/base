@@ -1,22 +1,11 @@
 DEPENDENCIES
-  build-essential (~> 6.0.4)
   cop_base
     path: .
     metadata: true
 
 GRAPH
-  build-essential (6.0.4)
-    compat_resource (>= 12.10)
-    mingw (>= 1.1)
-    seven_zip (>= 0.0.0)
-  chef_handler (1.4.0)
-  compat_resource (12.10.7)
-  cop_base (0.0.4)
-    build-essential (>= 0.0.0)
-  mingw (1.2.4)
-    compat_resource (>= 0.0.0)
-    seven_zip (>= 0.0.0)
-  seven_zip (2.0.1)
-    windows (>= 1.2.2)
-  windows (1.44.3)
-    chef_handler (>= 0.0.0)
+  apt (5.0.0)
+    compat_resource (>= 12.14.7)
+  compat_resource (12.16.2)
+  cop_base (0.0.5)
+    apt (>= 0.0.0)
