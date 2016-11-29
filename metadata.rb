@@ -8,6 +8,7 @@ version             '0.0.5'
 source_url          'https://github.com/copious-cookbooks/base'
 issues_url          'https://github.com/copious-cookbooks/base/issues'
 
+depends 'apt'
 depends 'build-essential'
 
 supports 'ubuntu', '>= 14.04'

@@ -1,8 +1,3 @@
-case node['platform_family']
-when 'rhel'
-    include_recipe 'cop_base::yum'
-end
-
 generic_packages = node.default['packages']
 
 generic_packages.each do |pkg|
