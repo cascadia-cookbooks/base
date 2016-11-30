@@ -11,6 +11,6 @@ issues_url          'https://github.com/copious-cookbooks/base/issues'
 depends 'apt'
 depends 'cop_ntp'
 
-supports 'ubuntu', '>= 14.04'
+supports 'ubuntu', '>= 12.04'
 supports 'rhel'
 supports 'centos'

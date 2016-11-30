@@ -11,7 +11,6 @@ platforms:
   - name: ubuntu-16.04
   - name: centos-6.8
   - name: centos-7.2
-  - name: fedora-22
   - name: debian-7.11
   - name: debian-8.6
 
