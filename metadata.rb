@@ -12,3 +12,5 @@ depends 'apt'
 depends 'cop_ntp'
 
 supports 'ubuntu', '>= 14.04'
+supports 'rhel'
+supports 'centos'
