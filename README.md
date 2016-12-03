@@ -44,6 +44,20 @@ run_list(
 )
 ```
 
+## Environment Variables
+You can set environment variables for projects by following the following format:
+
+```ruby
+default['environment_vars'] = {
+    'VARIABLE': 'VALUE',
+    'VARIABLE_TWO': 'VALUE_TWO'
+}
+```
+
+It will loop through each key value pair and add them to the environment's `/etc/environment` file.
+
+NOTE: You will not have access to these variables within the context of chef so you will have to use the `:environment` property within the commands that need context.
+
 ## Testing
 * http://kitchen.ci
 * http://serverspec.org
