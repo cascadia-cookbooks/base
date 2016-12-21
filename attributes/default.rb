@@ -2,6 +2,7 @@ default['packages']['install'] = %w(
     htop
     vim
     nano
+    git
 )
 
 case node['platform_family']
