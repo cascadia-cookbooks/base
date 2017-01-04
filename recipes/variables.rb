@@ -1,5 +1,8 @@
 file '/etc/environment' do
-    action :touch
+    owner  'root'
+    group  'root'
+    mode   0666
+    action :create_if_missing
 end
 
 unless node['environment_vars'].nil? || node['environment_vars'].empty?
