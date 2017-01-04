@@ -1,7 +1,7 @@
 file '/etc/environment' do
     owner  'root'
     group  'root'
-    mode   0666
+    mode   0644
     action :create_if_missing
 end
 
