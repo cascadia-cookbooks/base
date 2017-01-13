@@ -9,6 +9,10 @@ describe 'base::default' do
     it { should be_installed }
   end
 
+  describe package('htop') do
+    it { should be_installed }
+  end
+
   describe file('/etc/environment') do
     it { should be_owned_by 'root' }
     it { should be_grouped_into 'root' }
