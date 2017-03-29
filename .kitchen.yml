@@ -21,3 +21,6 @@ suites:
     attributes:
         environment_vars:
             testing: true
+        selinux:
+            dev_packages:
+              enabled: true
