@@ -3,8 +3,8 @@
 # Recipe:: selinux
 #
 
-selinux         = node['selinux']
-dev_packages    = selinux['dev_packages']
+selinux      = node['selinux']
+dev_packages = selinux['dev_packages']
 
 if dev_packages['enabled']
     dev_pacakages['packages'].each do |p|

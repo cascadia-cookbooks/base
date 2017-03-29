@@ -37,10 +37,10 @@ when 'rhel'
     default['epel']['package_name'] = 'epel-release'
     default['epel']['repo_name']    = 'epel'
 
-    default['selinux']['mode']                      = 'permissive'
-    default['selinux']['type']                      = 'targeted'
-    default['selinux']['dev_packages']['enabled']   = false
-    default['selinux']['dev_packages']['packages']  = %w(
+    default['selinux']['mode']                     = 'permissive'
+    default['selinux']['type']                     = 'targeted'
+    default['selinux']['dev_packages']['enabled']  = false
+    default['selinux']['dev_packages']['packages'] = %w(
         policycoreutils-python
         setools-console
         setroubleshoot
