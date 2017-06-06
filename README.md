@@ -3,7 +3,7 @@ Base OS packages
 
 ## Requirements
 ### Platforms
-- Ubuntu '>= 12.04'
+- Ubuntu '>= 14.04'
 - Debian '>= 7.0'
 - Rhel '>= 6.0'
 

@@ -1,3 +1,8 @@
+#
+# Cookbook Name:: base
+# Recipe:: dependencies
+#
+
 case node['platform_family']
 when 'debian'
     include_recipe 'apt::default'
