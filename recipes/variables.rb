@@ -1,3 +1,8 @@
+#
+# Cookbook Name:: base
+# Recipe:: variables
+#
+
 file '/etc/environment' do
     owner  'root'
     group  'root'
